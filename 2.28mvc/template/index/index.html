@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="{CSS_PATH}/index.css"/>
+	<body>
+		<h1>这是前台</h1>
+		<ul>
+		{foreach $result as $v}
+			<li>{$v["id"]}</li>
+		{/foreach}
+		</ul>
+	</body>
+</html>
